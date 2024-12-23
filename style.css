@@ -1,0 +1,238 @@
+body{
+    background-image: url('/Assests/images/Untitled\ design.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top 110px center ;
+    margin-top: 100px; 
+    /* width: 465px;
+    height: 1280px; */
+    /* background-color : #f87c34; */
+    /* background-position - x: 5px ; */
+     /* background-position-x:-150px ;  */
+     overflow-x: hidden;
+    
+}
+.s1 .example{
+    background-color: aqua;
+    height: 465px;
+    width: 1280px;
+    margin-top: -393px;
+}
+
+
+#model{
+    height: 480px;
+    width: 480px;
+    margin-top: 680px;
+} 
+.navbar{
+
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: -40px;
+    /* margin-bottom: -200px;   */
+} 
+ .navbar-brand img{
+    max-height: 200px;
+    margin-top: -10px;
+}
+.navbar .nav-link{
+    font-size: 18px;
+    margin-left: 30px;
+    position: relative;
+    margin-top: -40px;
+    /* padding-right: -200px;? */
+    right: 50px;
+}
+.navbar .nav-link.active{
+    color: rgb(255, 113, 25);
+    font-weight: 500;
+}
+.s1{
+    height: 70px;
+    margin-top: -700px;
+}
+.s1 img{
+    /* max-height: 800px ; */
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+.s1 h3{
+    margin-top: -450px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.s1 p{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.s1 button{
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-image: linear-gradient(
+        to right, #FF8C4A,#FF8C4A
+    );
+    transition-duration: 2s;
+}
+.s1 button:hover{
+    background-image: linear-gradient(to right,#fc7425,#f87c34);
+}
+hr{
+    margin-top: 100px;
+}
+.OC::after{
+    content: "";
+    display: block;
+    width: 95px;
+    height: 7px;
+    background-color: #f7444e;
+    margin-left:585px ;
+    margin-top: 14px;
+}
+.s2{
+    height: 600px;
+    /* margin-top: 910px; */
+    /* background-color: #f87c34; */
+}
+.s2 .teamimg{
+    margin-left: 76px;
+    margin-top: 100px;
+}
+.s2 h2{
+    margin-top: -380px;
+    margin-left: 880px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.s2 p{
+    margin-left: 700px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.s1 .line{
+    text-align: center;
+    margin-left: -600px;
+    margin-top: 70px;
+}
+.content1{
+    margin-top: 60px;
+    margin-left: -10px;
+}
+.hr{
+    margin-top: 1080px;
+}
+.container2 {
+    width: 100%;
+    height: 17rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1.7rem;
+  background-image: linear-gradient(45deg, #e26218, #fc8845);
+}
+
+.box {
+  text-align: center;
+}
+
+.s3{
+    height: 1100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+.container .col-md-12{
+    /* margin-top: 50px; */
+}
+.container .col-md-12 .card{
+    margin-left: 40px;
+    margin-top: 30px;
+  
+}
+.btn{
+    background-color: #e26218;
+    color: white;
+    border: #e26218;
+
+}
+.btn-1{
+    transition: .4s all;
+    width: 120px;;
+}
+ .btn-1:hover{
+    
+    background-color:#e26218;
+    transform: translateY(-10px);
+    color: white;
+}
+.card{
+    margin-left: 20px;
+}
+.s4{
+    width: 1260px;
+    height: 300px;
+    justify-content: center;
+    /* margin-left:40px; */
+    background-color: black;
+}
+.content{
+    color: white;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.content2{
+    color: white;
+    margin-left: 590px;
+    margin-top: -130px;
+}
+.content2  a{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 10px;
+    /* margin-top: -10px; */
+    padding-bottom: 15px;
+    transition-duration: 1s;
+    color: white;   
+}
+.content3{
+    color: white;
+    margin-left: 930px;
+    /* float: right; */
+    margin-top: -150px;
+}
+.content3 i{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.content h2{
+    color: #e26218;
+}
+.content2 h2{
+    color: #e26218;
+}
+.content3 h2{
+    color: #e26218;
+}
+.content2 li:hover{
+    color: #e26218;
+}
+.fab{
+    color: #e26218;
+}
+.s5{
+    background-color:                                           ;
+    height: 20px;
+}

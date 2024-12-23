@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Web Design Mastery | Testimonials section</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #e26218;
+  --secondary-color: #e8e8e8;
+  --text-dark: #0f172a;
+  --text-light: #94a3b8;
+  --white: #ffffff;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.section__container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.section__container h1 {
+  position: relative;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.section__container h1::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 5rem;
+  background-color: var(--primary-color);
+}
+
+.section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.section__card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 5rem 2rem 2rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.section__card::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.section__card span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.section__card h4 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.section__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.section__card img {
+  margin-bottom: 1rem;
+  max-width: 100px;
+  border-radius: 100%;
+  border: 2px solid var(--primary-color);
+  transition: 0.3s;
+}
+
+.section__card h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.section__card h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.section__card:hover::before {
+  width: 400%;
+}
+
+.section__card:hover :is(h4, h5) {
+  color: var(--white);
+}
+
+.section__card:hover :is(p, h6) {
+  color: var(--secondary-color);
+}
+
+.section__card:hover img {
+  border-color: var(--white);
+}
+  </style>
+  <body>
+    <section class="section__container">
+      <h2>Testimonials</h2>
+      <h1>Meet Our Passionate Teachers</h1>
+      <div class="section__grid">
+        <div class="section__card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <h4>Graphic Designing Expert</h4>
+          <p>
+            They understood our brand and created a stunning website design.
+            Professional, responsive, and on-time delivery. Highly recommended!
+          </p>
+          <img src="/Assests/images/user-1.jpg" alt="user" />
+          <h5>Allan Collins</h5>
+          <h6>Graphic Designer</h6>
+        </div>
+        <div class="section__card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <h4>UI UX Expert</h4>
+          <p>
+            Efficient, reliable, and results-oriented. Visually appealing
+            website, improved online visibility. Highly recommended!
+          </p>
+          <img src="/Assests/images/user-2.jpg" alt="user" />
+          <h5>Tanya Grant</h5>
+          <h6>UI UX Designer</h6>
+        </div>
+        <div class="section__card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <h4>Web Development Expert</h4>
+          <p>
+            Best decision we made. Stunning website, exceptional support. Always
+            available and prompt issue resolution. Hassle-free experience!
+          </p>
+          <img src="/Assests/images/albert-dera-ILip77SbmOE-unsplash (1).jpg" alt="user" />
+          <h5>Clay Washington</h5>
+          <h6>Web Developer</h6>
+        </div>
+        <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>WordPress Expert</h4>
+            <p>
+              Best decision we made. Stunning website, exceptional support. Always
+              available and prompt issue resolution. Hassle-free experience!
+            </p>
+            <img src="/Assests/images/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt="user" />
+            <h5>Clay Washington</h5>
+            <h6>WordPress Expert </h6>
+          </div>
+          <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>Ai Expert</h4>
+            <p>
+              Best decision we made. Stunning website, exceptional support. Always
+              available and prompt issue resolution. Hassle-free experience!
+            </p>
+            <img src="/Assests/images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="user" />
+            <h5>Clay Washington</h5>
+            <h6>AI Expert</h6>
+          </div>
+          <div class="section__card">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <h4>Digital Marketing Expert</h4>
+            <p>
+              Best decision we made. Stunning website, exceptional support. Always
+              available and prompt issue resolution. Hassle-free experience!
+            </p>
+            <img src="/Assests/images/jurica-koletic-7YVZYZeITc8-unsplash.jpg" alt="user" />
+            <h5>Clay Washington</h5>
+            <h6>Marketing Expert</h6>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>
